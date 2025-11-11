@@ -21,7 +21,7 @@ categorical_features = preprocessor.transformers_[1][2]
 st.sidebar.header("Model Information")
 st.sidebar.write(f"**Expected numeric features:** {list(numeric_features)}")
 st.sidebar.write(f"**Expected categorical features:** {list(categorical_features)}")
-st.sidebar.write(f"**Decision threshold:** {threshold}")
+st.sidebar.write("Final year project")
 
 # --- 3. Create UI dynamically based on expected columns ---
 inputs = {}
